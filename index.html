@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IP-Search</title>
+</head>
+
+<body>
+
+    <div class="Main">
+        <h2>IP Collector</h2>
+
+        <div class="body">
+            <input type="text" class="inputIP" placeholder="Input Your IP Here">
+            <button onclick="Collect()" class="button">Search</button>
+        </div>
+        <input type="text" class="region" disabled placeholder="State" />
+        <input type="text" class="Country" disabled placeholder="Country" />
+        <input type="text" class="city" disabled placeholder="City" />
+        <input type="text" class="postal" disabled placeholder="Postal" />
+        <input type="text" class="hostname" disabled placeholder="Hostname">
+        <button onclick="Clear()" class="S-Button">Clear All</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
