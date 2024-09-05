@@ -5,7 +5,7 @@ function Collect() {
 }
 
 async function ApiRequest(input) {
-    let URL = `http://ipinfo.io/${input}?token=1e052b4ff64df0`
+    let URL = `https://ipinfo.io/${input}?token=1e052b4ff64df0`
     let data = await fetch(URL).then(response => response.json())
     console.log(data)
     DisplayData(data)
